@@ -1,0 +1,62 @@
+.cap,.ironman,.blackw
+{
+    bottom: 0;
+    position: absolute;
+    height: 182px;   
+}
+.spiderman
+{
+    position: absolute;
+    height: 182px;
+}
+div
+{
+    position: relative;
+    display: inline-block;
+    margin: 50px 0 50px 20px;
+    height: 140px;
+    width: 270px;
+    border-radius: 5px;
+}
+div:hover
+{
+    box-shadow: 0 8px 16px 0 slategrey;
+}
+.capcon 
+{
+    background: linear-gradient(#4568DC, #b06ab3);
+}
+.ironcon
+{
+    background: linear-gradient(#e52d27, #b31217);
+}
+.blackcon
+{
+    background: linear-gradient(#000,#61045f);
+}
+.spidercon
+{
+    background: linear-gradient(#e52d27, #000);
+}
+.ps
+{   
+    right: 0;
+    padding: 5px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: white;
+    position: absolute;    
+}
+.name
+{
+    right: 0;
+    padding: 5px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: right;
+    position: absolute;
+}

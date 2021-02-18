@@ -1,0 +1,33 @@
+ 
+a[href*="http://nginx.org/"], a[href*="http://test.www.link/"]
+{
+    content: '\00D7';
+
+
+}
+a[href*="www"]
+{
+    color: green;
+}
+a[target=_blank]::after
+{
+    content: "\21D2";
+    color: coral;
+}
+a[href*="https://"]::before
+{
+    padding-right: 10px;
+    content:  "\00BB";
+}
+a[href*="http://"]::before
+{
+    color: red;
+    padding-right: 10px;
+    content: "\00D7";
+}
+a:hover::after
+{
+    font-style: italic;
+    content: "\2026 last symbol is a";
+    color: coral;
+}
