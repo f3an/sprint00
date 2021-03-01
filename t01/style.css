@@ -1,40 +1,45 @@
-.h
-{
+.h {
     color: white;
     background-color: black;
 }
-.s
-{
+
+.s {
     background-color: orange;
 }
-.t
-{
+
+.t {
     background-color: green;
 }
-.sp
-{
+
+.sp {
     background-color: blue;
 }
-.m
-{
+
+.m {
     background-color: yellow;
 }
-.r
-{
+
+.r {
     background-color: red;
 }
-.p
-{
+
+.p {
     background-color: purple;
 }
-img
-{   
-    padding: 2px;
+
+img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 66px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 25px;
     height: 120;
+    width: 120;
+}
+
+table {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }

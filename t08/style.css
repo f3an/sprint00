@@ -1,24 +1,24 @@
 form {
-  /* Center the form on the page */
-  margin: 0 auto;
-
-  /* Form outline */
-  padding: 1em;
-  border: 2px solid gray;
-
+    /* Center the form on the page */
+    margin: 0 auto;
+    /* Form outline */
+    padding: 1em;
+    border: 2px solid gray;
 }
-.ab,.pow,.or
-{
+
+.ab,
+.pow,
+.or {
     position: relative;
     display: block;
     padding: 10px;
     margin: 10px 0;
     border: 2px solid gray;
 }
-h4
-{
+
+h4 {
     background: white;
-    display:inline;
+    display: inline;
     position: relative;
     left: 20px;
     bottom: 20px;
